@@ -15,7 +15,7 @@ function App() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/Team%20Data`,
+        `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/Players`,
         {
           headers: {
             'Authorization': `Bearer ${AIRTABLE_TOKEN}`,
